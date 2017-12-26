@@ -1,0 +1,49 @@
+{
+  "name": "boozeapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "braintree-web": "^3.26.0",
+    "email-validator": "^1.1.1",
+    "keymirror": "^0.1.1",
+    "lodash": "^4.17.4",
+    "numeral": "^2.0.6",
+    "react": "16.0.0",
+    "react-currency-masked-input": "^2.2.0",
+    "react-native": "0.51.0",
+    "react-native-check-box": "^2.0.2",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-dismiss-keyboard": "^1.0.0",
+    "react-native-google-places-autocomplete": "^1.3.6",
+    "react-native-infinite-scroll-view": "^0.4.3",
+    "react-native-keyboard-aware-scroll-view": "^0.4.1",
+    "react-native-masked-input": "^1.0.3",
+    "react-native-menu": "^0.23.0",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-popup": "^0.6.1",
+    "react-native-radio-button": "^2.0.1",
+    "react-native-router-flux": "^4.0.0-beta.24",
+    "react-native-side-menu": "^1.1.3",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.8.2",
+    "superagent-bluebird-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0",
+    "redux-devtools": "^3.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
