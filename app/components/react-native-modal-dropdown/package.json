@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-modal-dropdown",
+        "scope": null,
+        "escapedName": "react-native-modal-dropdown",
+        "name": "react-native-modal-dropdown",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Volumes/Data/Work/Denis/Brian/boozeapp.mob/boozeapp/ios"
+    ]
+  ],
+  "_from": "react-native-modal-dropdown@latest",
+  "_id": "react-native-modal-dropdown@0.4.0",
+  "_inCache": true,
+  "_location": "/react-native-modal-dropdown",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-modal-dropdown-0.4.0.tgz_1480586699794_0.08162318076938391"
+  },
+  "_npmUser": {
+    "name": "sohobloo",
+    "email": "sohobloo@live.cn"
+  },
+  "_npmVersion": "4.0.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-modal-dropdown",
+    "scope": null,
+    "escapedName": "react-native-modal-dropdown",
+    "name": "react-native-modal-dropdown",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-modal-dropdown/-/react-native-modal-dropdown-0.4.0.tgz",
+  "_shasum": "7780a68b1750e1af3f668acfbce4182de7e6418d",
+  "_shrinkwrap": null,
+  "_spec": "react-native-modal-dropdown",
+  "_where": "/Volumes/Data/Work/Denis/Brian/boozeapp.mob/boozeapp/ios",
+  "author": {
+    "name": "sohobloo",
+    "email": "sohobloo@live.cn",
+    "url": "https://github.com/sohobloo"
+  },
+  "bugs": {
+    "url": "https://github.com/sohobloo/react-native-modal-dropdown/issues",
+    "email": "sohobloo@live.cn"
+  },
+  "dependencies": {},
+  "description": "A react-native dropdown component for both iOS and Android.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7780a68b1750e1af3f668acfbce4182de7e6418d",
+    "tarball": "https://registry.npmjs.org/react-native-modal-dropdown/-/react-native-modal-dropdown-0.4.0.tgz"
+  },
+  "gitHead": "0de03bfc00c9736dc501f2476fbd5e5f54d7a847",
+  "homepage": "https://github.com/sohobloo/react-native-modal-dropdown",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "react-native-component",
+    "ios",
+    "android",
+    "modal",
+    "dropdown",
+    "picker",
+    "select",
+    "selector",
+    "option"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sohobloo",
+      "email": "sohobloo@live.cn"
+    }
+  ],
+  "name": "react-native-modal-dropdown",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohobloo/react-native-modal-dropdown.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.4.0"
+}
