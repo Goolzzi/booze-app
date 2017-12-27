@@ -1,26 +1,26 @@
-const React = require('react');
-const ReactNative = require('react-native');
-const {
+import React, { Component } from 'react';
+import PropTypes from 'prop-types'
+import {
   StyleSheet,
   Text,
   View,
   Animated,
-} = ReactNative;
-const Button = require('./Button');
+} from 'react-native';
+import Button from './Button'
 
-const DefaultTabBar = React.createClass({
-  propTypes: {
-    goToPage: React.PropTypes.func,
-    activeTab: React.PropTypes.number,
-    tabs: React.PropTypes.array,
-    backgroundColor: React.PropTypes.string,
-    activeTextColor: React.PropTypes.string,
-    inactiveTextColor: React.PropTypes.string,
+class DefaultTabBar extends Component {
+  static propTypes = {
+    goToPage: PropTypes.func,
+    activeTab: PropTypes.number,
+    tabs: PropTypes.array,
+    backgroundColor: PropTypes.string,
+    activeTextColor: PropTypes.string,
+    inactiveTextColor: PropTypes.string,
     textStyle: Text.propTypes.style,
     tabStyle: View.propTypes.style,
-    renderTab: React.PropTypes.func,
+    renderTab: PropTypes.func,
     underlineStyle: View.propTypes.style,
-  },
+  }
 
   getDefaultProps() {
     return {
@@ -28,10 +28,10 @@ const DefaultTabBar = React.createClass({
       inactiveTextColor: 'black',
       backgroundColor: null,
     };
-  },
+  }
 
   renderTabOption(name, page) {
-  },
+  }
 
   renderTab(name, page, isTabActive, onPressHandler) {
     const { activeTextColor, inactiveTextColor, textStyle, } = this.props;
@@ -52,7 +52,7 @@ const DefaultTabBar = React.createClass({
         </Text>
       </View>
     </Button>;
-  },
+  }
 
   render() {
     const containerWidth = this.props.containerWidth;
@@ -78,26 +78,6 @@ const DefaultTabBar = React.createClass({
         <Animated.View style={[tabUnderlineStyle, { left, }, this.props.underlineStyle, ]} />
       </View>
     );
-  },
-});
-
-const styles = StyleSheet.create({
-  tab: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingBottom: 10,
-  },
-  tabs: {
-    height: 50,
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    borderWidth: 1,
-    borderTopWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderColor: '#ccc',
-  },
-});
-
-module.exports = DefaultTabBar;
+  }
+}
+export default DefaultTabBar;

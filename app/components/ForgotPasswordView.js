@@ -5,7 +5,7 @@ import {AsyncStorage} from 'react-native';
 import {loadNonServiceEmail} from '../redux/actions/nonServiceAreaActions';
 import {forgotPassword} from '../redux/actions/userRegisterActions';
 import {connect} from 'react-redux';
-import Popup from 'react-native-popup';
+import Popup from './react-native-popup';
 import EmailValidator from 'email-validator';
 
 const screen_width = Dimensions.get('window').width;

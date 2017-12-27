@@ -4,14 +4,13 @@ import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import {placeOrder, loadPromoCode} from '../redux/actions/orderViewActions';
 import {AsyncStorage} from 'react-native';
-import Popup from 'react-native-popup';
 import CheckBox from 'react-native-check-box';
 import SearchBarView from '../components/SearchBarView'
 import {getAllCard} from '../redux/actions/cardViewActions';
 import {savePrevPage, saveCurrentPage} from '../redux/actions/tabInfoAction';
 import {getDeliveryHours} from '../redux/actions/scheduleDeliveryActions';
 import {setGeoCodeBillingInfo, getUserGeoCodeInfo} from '../redux/actions/geoCodeActions';
-import {getDeviceData} from '../redux/actions/braintreeActions';
+// import {getDeviceData} from '../redux/actions/braintreeActions';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import {static_geoCode_data, static_data, API_Congig} from '../constants';
 import {createCartInfo} from '../redux/actions/productCartActions';
@@ -1050,4 +1049,4 @@ export default connect(
   	promocodeFailed: state.orderView.promocodeFailed,
   	deliveryDataArr: state.deliveryHours.deliveryDataArr,
   	createcartInfo: state.cartInfo.createcartInfo,
-  }),{createCartInfo, getAllCard, savePrevPage, getDeliveryHours, loadPromoCode, setGeoCodeBillingInfo, getUserGeoCodeInfo, placeOrder, getDeviceData, saveCurrentPage})(OrderView);
+  }),{createCartInfo, getAllCard, savePrevPage, getDeliveryHours, loadPromoCode, setGeoCodeBillingInfo, getUserGeoCodeInfo, placeOrder, saveCurrentPage})(OrderView);

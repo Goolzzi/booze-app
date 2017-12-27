@@ -3,7 +3,6 @@ import {StyleSheet, Image, ListView, View, Text, TouchableOpacity, TouchableHigh
 import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import {AsyncStorage} from 'react-native';
-import Popup from 'react-native-popup';
 import CheckBox from 'react-native-check-box';
 import SearchBarView from '../components/SearchBarView'
 import {savePrevPage, saveCurrentPage} from '../redux/actions/tabInfoAction';

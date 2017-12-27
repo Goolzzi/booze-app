@@ -3,7 +3,6 @@ import {StyleSheet, View, Text, TouchableOpacity, TextInput, Dimensions, Alert} 
 import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import {AsyncStorage} from 'react-native';
-import Popup from 'react-native-popup';
 import SearchBarView from '../components/SearchBarView'
 import ForgotPasswordView from '../components/ForgotPasswordView'
 import Modal from 'react-native-modalbox';
@@ -13,8 +12,8 @@ import {getAllCard} from '../redux/actions/cardViewActions';
 import EmailValidator from 'email-validator';
 import dismissKeyboard from 'react-native-dismiss-keyboard';
 import {getCartInfo} from '../redux/actions/productCartActions';
-
-const SideMenu = require('react-native-side-menu');
+import SideMenu from 'react-native-side-menu'
+// const SideMenu = require('react-native-side-menu');
 const Menu = require('../components/Menu');
 const screen_width = Dimensions.get('window').width;
 const screen_height = Dimensions.get('window').height;

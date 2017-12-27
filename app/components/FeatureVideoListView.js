@@ -4,7 +4,7 @@ import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import {loadVideoFeatureList} from '../redux/actions/videoFeatureActions'
 import {savePrevPage, saveTabType} from '../redux/actions/tabInfoAction';
-import Browser from 'react-native-browser';
+// import Browser from 'react-native-browser';
 
 const screen_width = Dimensions.get('window').width;
 const screen_height = Dimensions.get('window').height;

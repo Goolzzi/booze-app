@@ -3,7 +3,6 @@ import {StyleSheet, Image, View, Text, TouchableOpacity, ScrollView, TextInput, 
 import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import {AsyncStorage} from 'react-native';
-import Popup from 'react-native-popup';
 import CheckBox from 'react-native-check-box';
 import SearchBarView from '../components/SearchBarView'
 import {getAllCard} from '../redux/actions/cardViewActions';
