@@ -14,4 +14,4 @@ const SceneComponent = (Props) => {
   </View>;
 };
 
-module.exports = SceneComponent;
+export default SceneComponent;

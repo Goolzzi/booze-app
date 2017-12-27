@@ -1,7 +1,8 @@
+import React from 'react'
 import {Actions} from 'react-native-router-flux';
 import {AsyncStorage} from 'react-native';
+import PropTypes from 'prop-types'
 
-const React = require('react');
 const {
   Dimensions,
   StyleSheet,
@@ -85,7 +86,7 @@ module.exports = class Menu extends Component {
   }
 
   static propTypes = {
-    onItemSelected: React.PropTypes.func.isRequired,
+    onItemSelected: PropTypes.func.isRequired,
   };
 
   onPayments() {

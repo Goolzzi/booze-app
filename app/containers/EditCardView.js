@@ -4,7 +4,6 @@ import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 import {loadSignInResult} from '../redux/actions/userRegisterActions';
 import {AsyncStorage} from 'react-native';
-import Popup from 'react-native-popup';
 import SearchBarView from '../components/SearchBarView'
 import OrderView from '../containers/OrderView'
 import {savePrevPage, saveCurrentPage} from '../redux/actions/tabInfoAction';

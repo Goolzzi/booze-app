@@ -4,7 +4,7 @@ import {Actions} from 'react-native-router-flux';
 import {AsyncStorage} from 'react-native';
 import {loadNonServiceEmail} from '../redux/actions/nonServiceAreaActions';
 import {connect} from 'react-redux';
-import Popup from 'react-native-popup';
+import Popup from './react-native-popup';
 import EmailValidator from 'email-validator';
 
 class NonServiceAreaView extends Component{

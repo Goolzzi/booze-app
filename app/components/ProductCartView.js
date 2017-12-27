@@ -6,7 +6,7 @@ import RadioButton from 'react-native-radio-button';
 import {connect} from 'react-redux';
 import {loadSubmitResult} from '../redux/actions/partyOrderActions';
 import {AsyncStorage} from 'react-native';
-import Popup from 'react-native-popup';
+import Popup from './react-native-popup';
 import CheckBox from 'react-native-check-box';
 import SearchBarView from './SearchBarView'
 import {savePrevPage, saveCurrentPage} from '../redux/actions/tabInfoAction';
